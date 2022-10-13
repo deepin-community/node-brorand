@@ -1,0 +1,60 @@
+node-brorand (1.1.0-4) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Update standards version to 4.5.0, no changes needed.
+  * Apply multi-arch hints.
+    + node-brorand: Add Multi-Arch: foreign.
+  * Remove constraints unnecessary since stretch:
+    + Build-Depends: Drop versioned constraint on nodejs.
+    + node-brorand: Drop versioned constraint on nodejs in Depends.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+
+ -- Yadd <yadd@debian.org>  Fri, 15 Oct 2021 16:09:44 +0200
+
+node-brorand (1.1.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Update copyright
+  * Switch test and install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 18 Nov 2019 21:17:41 +0100
+
+node-brorand (1.1.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Move to salsa
+  * Bump policy and compat
+  * Improve packaging
+
+ -- Bastien Roucariès <rouca@debian.org>  Thu, 10 May 2018 22:53:57 +0200
+
+node-brorand (1.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+  * New upstream version
+  * cli run installed copy not source copy.
+  * bump to compat 10.
+  * Honor nocheck.
+
+ -- Bastien Roucariès <rouca@debian.org>  Wed, 12 Apr 2017 22:47:41 +0200
+
+node-brorand (1.0.6-1) experimental; urgency=low
+
+  * Initial release (Closes: #854206)
+
+ -- Tushar Agey <agey.tushar3@gmail.com>  Sun, 05 Feb 2017 00:49:56 +0000
